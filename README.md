@@ -4,26 +4,35 @@
 
 1. Clone su repositorio asignado usando **git clone** en la carpeta donde usted desee
 
-2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de Instrucciones para Inicializar el Proyecto e Instrucciones para Completar el Proyecto
+2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de [Instrucciones para Inicializar el Proyecto](#inst-init-proy) e [Instrucciones para Completar el Proyecto](#inst-compl-proy)
 
 3. Conforme vaya realizando los cambios indicados en la sección Instrucciones para Completar el Proyecto, registre tales cambios de manera atómica usando **git add** y **git commit**. Recuerde que un commit es atómico si solo incluye el archivo donde se hizo el cambio y no incluye en el mismo commit varias modificaciones. Al hacer los commit especifique un mensaje breve que deje claro el trabajo realizado.
 
 4. Al final, haga push de sus cambios al repositorio remoto usando **git push**. Si desea, puede estar haciendo push esporádicamente aunque no haya finalizado su trabajo para mantener una copia de su trabajo en el repositorio remoto.
 
+#inst-init-proy
 ## Instrucciones Para Inicializar el Proyecto
 
 Para esta programa, se conjuntará el trabaja realizado en las actividades 02 y 03, y se agregará un archivo CSS que defina las reglas de estilo a aplicarse a todos los archivos HTML. 
 
-1. Copiar en la carpeta de este repositorio los archivos **index.html**, **estudios.html**, **favoritas.html**, **intereses.html** así como la carpeta **imagenes** (incluyendo la foto propia que de contener) que realizó para la actividad 03.
-2. Copiar en la carpeta de este repositorio el archivo **catalogopeliculas.html** que realizó en la actividad 04
-3. Edite el archivo **index.html** para que le agregue un hiperenlace que le lleve al archivo **catalogopeliculas.html** y que tenga como texto `Catálogo de Películas`
-4. Haga un commit con que incluya estos archivos 5 archivos y la carpeta imágenes con el mensaje `Inicialización de Archivos para Programa 01`
+1. Copiar en la carpeta de este repositorio los archivos **index.html**, **estudios.html**, **favoritas.html**, **intereses.html** así como la carpeta **imagenes** (incluyendo la foto propia que debe contener), que son los archivos que completó para la actividad 03.
+2. Copiar en la carpeta de este repositorio el archivo **catalogopeliculas.html** que completó en la actividad 04.
+3. Edite el archivo **index.html** para que le agregue un hiperenlace que le lleve al archivo **catalogopeliculas.html** y que tenga como texto `Catálogo de Películas` (después de los tres hiperenlaces que ya tiene).
+4. Haga un commit con que incluya estos 5 archivos archivos y la carpeta imagenes con el mensaje `Inclusión de Archivos de Actividades Previas para Programa 01`
 
+#inst-compl-proy
 ## Instrucciones Para Completar el Proyecto
 
 1. En los archivos **estudios.html**, **favoritas.html**, **intereses.html** y **catalogopeliculas.html**, agregue justo del final del **body**, una liga(hiperenlace) a la página index.html, con el texto **Inicio**. Tal hiperenlace deberá estar contenido dentro de una etiqueta div que sea de clase **retorno**.
 
-2. Debe agregar los estilos a las 5 páginas HTML de acuerdo a las siguientes indicaciones:
+2. En el archivo **catalogopeliculas.html**, elimine la etiqueta **style** (con todo y su contenido), la cual está en la sección **head**.
+
+3. En los archivos **estudios.html**, **favoritas.html**, **intereses.html** y **catalogopeliculas.html**, coloque en la sección head la siguiente etiqueta: 
+```
+<link rel="stylesheet" href="estilos/estilos.css" type="text/css"/>
+```
+
+4. Debe agregar los estilos a las 5 páginas HTML de acuerdo a las siguientes indicaciones:
    - Todas las páginas deben tener en la esquina superior izquierda el texto `Desarrollado por XYZ` donde X, Y y Z son las iniciales del primer nombre, apellido paterno y apellido materno del autor de la página. Este texto deberá estar contenido dentro de una etiqueta div con un id `autor`. La ubicación de este texto deberá ser siempre el mismo, es decir, independientemente de que se hiciera scrolling en la página, siempre debe mantenerse en la esquina superior izquierda (verifique que así es reduciendo el tamaño del navegador hasta que pueda hacer scrolling), por lo que su posicionamiento deberá ser controlado con propiedades CSS. Esta parte implica investigar en Internet como lograr este tipo de posicionamiento.
    - Genere un documento CSS externo de nombre **estilos.css** (a colocarse en la carpeta **estilos**) que será aplicado a todas las páginas HTML y que contendrá las siguientes reglas:
      a) Los elementos **h1** deben ser con tipo de letra Arial, estilo itálico, en negrita y de tamaño 220% del normal
@@ -55,4 +64,5 @@ Para esta programa, se conjuntará el trabaja realizado en las actividades 02 y 
 4. Todas las páginas HTML5 deben haber sido validadas (use el validador que se encuentra en https://validator.w3.org/), es decir, el validador no debe reportar errores en las páginas
 5. El archivo estilos.css debe haber sido validado usando https://jigsaw.w3.org/css-validator, es decir, el validador no debe reportar errores en el archivo estilos.css
 
+6. La fecha y hora límite para que en el repositorio remoto estén todos los cambios es el martes 16 de febrero a las 12:00 mediodía.
 
