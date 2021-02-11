@@ -4,13 +4,12 @@
 
 1. Clone su repositorio asignado usando **git clone** en la carpeta donde usted desee
 
-2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de [Instrucciones para Inicializar el Proyecto](#inst-init-proy) e [Instrucciones para Completar el Proyecto](#inst-compl-proy)
+2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de [Instrucciones para Inicializar el Proyecto](## Instrucciones Para Completar el Proyecto) e [Instrucciones para Completar el Proyecto](## Instrucciones Para Completar el Proyecto)
 
 3. Conforme vaya realizando los cambios indicados en la sección Instrucciones para Completar el Proyecto, registre tales cambios de manera atómica usando **git add** y **git commit**. Recuerde que un commit es atómico si solo incluye el archivo donde se hizo el cambio y no incluye en el mismo commit varias modificaciones. Al hacer los commit especifique un mensaje breve que deje claro el trabajo realizado.
 
 4. Al final, haga push de sus cambios al repositorio remoto usando **git push**. Si desea, puede estar haciendo push esporádicamente aunque no haya finalizado su trabajo para mantener una copia de su trabajo en el repositorio remoto.
 
-#inst-init-proy
 ## Instrucciones Para Inicializar el Proyecto
 
 Para esta programa, se conjuntará el trabaja realizado en las actividades 02 y 03, y se agregará un archivo CSS que defina las reglas de estilo a aplicarse a todos los archivos HTML. 
@@ -20,7 +19,6 @@ Para esta programa, se conjuntará el trabaja realizado en las actividades 02 y 
 3. Edite el archivo **index.html** para que le agregue un hiperenlace que le lleve al archivo **catalogopeliculas.html** y que tenga como texto `Catálogo de Películas` (después de los tres hiperenlaces que ya tiene).
 4. Haga un commit con que incluya estos 5 archivos archivos y la carpeta imagenes con el mensaje `Inclusión de Archivos de Actividades Previas para Programa 01`
 
-#inst-compl-proy
 ## Instrucciones Para Completar el Proyecto
 
 1. En los archivos **estudios.html**, **favoritas.html**, **intereses.html** y **catalogopeliculas.html**, agregue justo del final del **body**, una liga(hiperenlace) a la página index.html, con el texto **Inicio**. Tal hiperenlace deberá estar contenido dentro de una etiqueta div que sea de clase **retorno**.
