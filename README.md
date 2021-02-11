@@ -4,9 +4,9 @@
 
 1. Clone su repositorio asignado usando **git clone** en la carpeta donde usted desee
 
-2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de [Instrucciones para Inicializar el Proyecto](## Instrucciones Para Completar el Proyecto) e [Instrucciones para Completar el Proyecto](## Instrucciones Para Completar el Proyecto)
+2. Modifique el contenido del repositorio de acuerdo a lo indicado en la secciones de [Instrucciones para Inicializar el Proyecto](#instrucciones-para-inicializar-el-proyecto) e [Instrucciones para Completar el Proyecto](#instrucciones-para-completar-el-proyecto)
 
-3. Conforme vaya realizando los cambios indicados en la sección Instrucciones para Completar el Proyecto, registre tales cambios de manera atómica usando **git add** y **git commit**. Recuerde que un commit es atómico si solo incluye el archivo donde se hizo el cambio y no incluye en el mismo commit varias modificaciones. Al hacer los commit especifique un mensaje breve que deje claro el trabajo realizado.
+3. Conforme vaya realizando los cambios indicados en la sección [Instrucciones para Completar el Proyecto](#instrucciones-para-completar-el-proyecto), registre tales cambios de manera atómica usando **git add** y **git commit**. Recuerde que un commit es atómico si solo incluye el archivo donde se hizo el cambio y no incluye en el mismo commit varias modificaciones. Al hacer los commit especifique un mensaje breve que deje claro el trabajo realizado.
 
 4. Al final, haga push de sus cambios al repositorio remoto usando **git push**. Si desea, puede estar haciendo push esporádicamente aunque no haya finalizado su trabajo para mantener una copia de su trabajo en el repositorio remoto.
 
