@@ -59,11 +59,11 @@ Para esta programa, se conjuntará el trabaja realizado en las actividades 02 y 
        - la posición será siempre en la esquina superior izquierda de la ventana, por lo cual deberá usar ciertas propiedades de CSS que deberá investigar.
      - Las páginas deberán sólo abarcar el 90% del ancho del navegador de páginas y esta área deberá estar centrada en el navegador
 
-3. Asegúrese que todos los archivos (los HTML y el CSS) contengan su nombre y matrícula como comentario (recuerde que los comentarios son distintos en HTML que en CSS).
+5. Asegúrese que todos los archivos (los HTML y el CSS) contengan su nombre y matrícula como comentario (recuerde que los comentarios son distintos en HTML que en CSS).
 
-4. Todas las páginas HTML5 deben haber sido validadas (use el validador que se encuentra en https://validator.w3.org/), es decir, el validador no debe reportar errores en las páginas.
+6. Todas las páginas HTML5 deben haber sido validadas (use el validador que se encuentra en https://validator.w3.org/), es decir, el validador no debe reportar errores en las páginas.
 
-5. El archivo estilos.css debe haber sido validado usando https://jigsaw.w3.org/css-validator, es decir, el validador no debe reportar errores en el archivo estilos.css
+7. El archivo estilos.css debe haber sido validado usando https://jigsaw.w3.org/css-validator, es decir, el validador no debe reportar errores en el archivo estilos.css
 
-6. La fecha y hora límite para que en el repositorio remoto estén todos los cambios es el martes 16 de febrero a las 12:00 mediodía.
+8. La fecha y hora límite para que en el repositorio remoto estén todos los cambios es el **martes 16 de febrero del 2021 a las 12:00 mediodía**.
 
